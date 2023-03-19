@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body {
+    background-image: url(https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+main#container {
+    
+    background-image: linear-gradient(gray, darkgray, gray);
+    border: 10px solid black;
+}
+
+h1.titulo {
+    font-size: 35px;
+    color: white;
+    text-shadow: 0.1em 0.1em 0.1em black;
+    font-family: 'Pacifico', cursive;
+    text-decoration: underline;
+}
+
+p.frase {
+    font-size: 20px;
+    color: white;
+    text-shadow: 0.1em 0.1em 0.1em black;
+    font-family: 'Pacifico', cursive;
+}
+
+p.autor {
+    color: white;
+    text-shadow: 0.1em 0.1em 0.1em black;
+    font-family: 'Pacifico', cursive;
+    text-decoration: underline;
+}
